@@ -3,7 +3,7 @@ name: Build Oracle Connector
 on:
   push:
     branches:
-      - master
+      - 1.7
     paths:
       - 'support/checkstyle/**'
       - 'support/ide-configs/**'
@@ -23,7 +23,7 @@ on:
       - '.github/workflows/oracle-workflow.yml'
   pull_request:
     branches:
-      - master
+      - 1.7
     paths:
       - 'support/checkstyle/**'
       - 'support/ide-configs/**'
